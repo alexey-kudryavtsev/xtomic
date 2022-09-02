@@ -1,10 +1,6 @@
 (ns xtomic.core
-  (:require [environ.core :as env]
-            [clojure.java.io :as io]
-            [xtdb.api :as xt]
-            [xtdb.jdbc]
-            [xtdb.jdbc.psql]
-            [xtdb.rocksdb]))
+  (:require [clojure.java.io :as io]
+            [xtdb.api :as xt]))
 
 (declare default-xtdb-node)
 
